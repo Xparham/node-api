@@ -8,7 +8,22 @@ const app = express()
 
 app.get('/welcome', (req, res) => {
     res.send(`Welcome viewer! This is my Resume's API!  Feel free to use command "npx xaviers-resume" to view my resume via terminal.
-    To pinpoint parts of resume on browser, replace "/welcome" and type these strings:/person, /name, /name/fName, /name/lname `)
+    To pinpoint parts of resume on browser, replace "/welcome" and type these strings:/person, 
+    /name, 
+    /name/fName, 
+    /name/lname, 
+    /name/Email, 
+    /name/Github. 
+    /location, 
+    /location/city, 
+    /location/state, 
+    /orgs, 
+    /orgs/first,
+    /orgs/second,
+    /edu,
+    /edu/high-school,
+    /edu/university,
+    /community-service  `)
 
 })
 
@@ -77,6 +92,7 @@ app.get('/edu/university', (req, res) =>{
 app.get('/comunity-service', (req, res) =>{
     res.send(`City Year, C5 New England (formerly known as Camp Coca Cola Leadership Program, Boston Cares) `)
 })
+
 
 
 
