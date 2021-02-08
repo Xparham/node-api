@@ -1,3 +1,4 @@
-import { archive } from './archive.js'
+import { person } from './archive.mjs'
 
-console.log(archive)
+const { name: {fName} } = person
+console.log(person)
