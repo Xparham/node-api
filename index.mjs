@@ -1,4 +1,5 @@
+#!/usr/bin/env node
 import { person } from './archive.mjs'
 
-const { name: {fName} } = person
-console.log(person)
+const { name: { fName }, location} = person
+console.log(`${fName}'s is in ${location}`)
