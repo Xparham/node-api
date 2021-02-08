@@ -16,7 +16,7 @@ app.get('/person', (req, res) =>{
 })
 
 app.get('/name', (req, res) =>{
-    res.send(`Xaiver Parham`)
+    res.send(`Xaiver Parham, https://github.com/Xparham, xparham@gmail.com`)
 })
 
 app.get('/name/first', (req, res) =>{
@@ -27,16 +27,25 @@ app.get('/name/last', (req, res) =>{
     res.send(`Parham`)
 })
 
-app.get('/name', (req, res) =>{
-    res.send(`Xaiver Parham`)
+app.get('/name/Email', (req, res) =>{
+    res.send(`xparham@gmail.com`)
 })
 
-app.get('/name', (req, res) =>{
-    res.send(`Xaiver Parham`)
+app.get('/name/Github', (req, res) =>{
+    res.send(` https://github.com/Xparham`)
 })
 
-app.get('/name', (req, res) =>{
-    res.send(`Xaiver Parham`)
+app.get('/location', (req, res) =>{
+    res.send(`Boston, MA`)
+})
+
+app.get('/location/city', (req, res) =>{
+    res.send(`Boston`)
+
+})
+
+app.get('/location/state', (req, res) =>{
+    res.send(`Massachusetts`)
 })
 
 // app.get('/id',(req, res) => {
