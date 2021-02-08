@@ -1,5 +1,5 @@
 import express from 'express'
-import person from '/archive.mjs'
+import person from './archive.mjs'
 
 const app = express()
 
