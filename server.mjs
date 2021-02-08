@@ -1,5 +1,5 @@
 import express from 'express'
-import archive from '/archive,mjs'
+import person from '/archive.mjs'
 
 const app = express()
 
@@ -8,7 +8,9 @@ app.get('/welcome_friend', (req, res) => {
 
 })
 
-app.get('/name', (req, res))
+app.get('/name', (req, res) =>{
+    res.send(person)
+})
 
 app.get('/id',(req, res) => {
     res.send({
