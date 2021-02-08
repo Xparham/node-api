@@ -19,11 +19,11 @@ app.get('/name', (req, res) =>{
     res.send(`Xaiver Parham, https://github.com/Xparham, xparham@gmail.com`)
 })
 
-app.get('/name/first', (req, res) =>{
+app.get('/name/fName', (req, res) =>{
     res.send(`Xaiver`)
 })
 
-app.get('/name/last', (req, res) =>{
+app.get('/name/lName', (req, res) =>{
     res.send(`Parham`)
 })
 
@@ -47,6 +47,32 @@ app.get('/location/city', (req, res) =>{
 app.get('/location/state', (req, res) =>{
     res.send(`Massachusetts`)
 })
+
+app.get('/orgs', (req, res) =>{
+    res.send(`MSIMBO Program and Urban League`)
+})
+
+app.get('/orgs/first', (req, res) =>{
+    res.send(`MSIMBO Program`)
+})
+
+app.get('/orgs/second', (req, res) =>{
+    res.send(`Urban League`)
+
+})
+
+app.get('/edu', (req, res) =>{
+    res.send(`Boston Latin Academy, UMASS Lowell (Animation Conentration`)
+})
+
+app.get('/edu/high-school', (req, res) =>{
+    res.send(`Boston Latin Academy`)
+})
+
+app.get('/edu/university', (req, res) =>{
+    res.send(`UMASS Lowell (Animation Conentration`)
+})
+
 
 // app.get('/id',(req, res) => {
 //     res.send({
