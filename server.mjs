@@ -1,14 +1,16 @@
 import express from 'express'
-import person from './archive.mjs'
+import { person } from './archive.mjs'
+
+const PORT = 3333
 
 const app = express()
 
-app.get('/welcome_friend', (req, res) => {
-    res.send('welcome friend')
+app.get('/welcome', (req, res) => {
+    res.send('welcome!  ')
 
 })
 
-app.get('/name', (req, res) =>{
+app.get('/location', (req, res) =>{
     res.send(person)
 })
 
@@ -19,6 +21,6 @@ app.get('/id',(req, res) => {
 })
 
 
-app.listen('3333', () => {
-    console.log('booting')
+app.listen(PORT, () => {
+    console.log(`booting up please wait for server ${PORT}....`)
 })
