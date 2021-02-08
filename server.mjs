@@ -7,7 +7,8 @@ const PORT = 3333
 const app = express()
 
 app.get('/welcome', (req, res) => {
-    res.send(`Welcome viewer! This is my Resume's API!  Feel free to use command "npx xaviers-resume" to view my resume via terminal`)
+    res.send(`Welcome viewer! This is my Resume's API!  Feel free to use command "npx xaviers-resume" to view my resume via terminal.
+    To pinpoint parts of resume on browser, replace "/welcome" and type these strings:/person, /name, /name/fName, /name/lname `)
 
 })
 
@@ -72,6 +73,12 @@ app.get('/edu/high-school', (req, res) =>{
 app.get('/edu/university', (req, res) =>{
     res.send(`UMASS Lowell (Animation Conentration`)
 })
+
+app.get('/comunity-service', (req, res) =>{
+    res.send(`City Year, C5 New England (formerly known as Camp Coca Cola Leadership Program, Boston Cares) `)
+})
+
+
 
 
 // app.get('/id',(req, res) => {
