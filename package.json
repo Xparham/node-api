@@ -1,7 +1,7 @@
 {
   "name": "api-resume",
   "version": "1.0.0",
-  "description": "",
+  "description": "resume made from my api that is allowed to be viewed locally on terminal or via server",
   "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
