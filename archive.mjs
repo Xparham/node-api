@@ -14,6 +14,11 @@ export const person = {
         second : "Urban league",
     },
 
+    languages : {
+        frontEnd: "HTML, CSS (Tailwind CSS), "
+        backEnd: ""
+    }, 
+
     edu: {
         high: "Boston Latin Academy",
         uni: "Umass Lowell",
