@@ -15,8 +15,15 @@ export const person = {
     },
 
     languages : {
-        frontEnd: "HTML, CSS (Tailwind CSS), "
-        backEnd: ""
+        // frontend
+        html:"HTML", 
+        css: "CSS(Tailwind CSS)", 
+        java: "JavaScript",
+        // backend
+        javaE: "JavaScript ESL6, Node.js, Express frameworks, React frameworks",
+        
+        
+        other: "Github, Command Line, "
     }, 
 
     edu: {
