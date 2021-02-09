@@ -6,7 +6,7 @@ const PORT = 5000
 
 const app = express()
 
-app.get('/welcome', (req, res) => {
+app.get('/', (req, res) => {
     res.send(`Welcome viewer! This is my Resume's API!  Feel free to use command "npx xaviers-resume" to view my resume via terminal.
     To pinpoint parts of resume on browser, replace "/welcome" and type these strings:/person, 
     /name, 
