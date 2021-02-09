@@ -2,6 +2,13 @@
 import { person } from './archive.mjs'
 
 
+const { basics } = person
+const {urbanLeague} = person
+const {skills} = person
+const {edu} = person
+const {volunteer} = person
+const {language} = person
+
 // const {basics:{nName, label, mail, location}} = person;
 
 
@@ -18,4 +25,5 @@ import { person } from './archive.mjs'
 // console.log(`E-mail:${mail}`)
 // console.log(`Github:${hub}`)
 
-console.log(person.basics.location.state)
+// console.log("person: ", person)
+console.log("urbanLeague:", urbanLeague)
