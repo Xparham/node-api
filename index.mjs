@@ -9,7 +9,11 @@ const { basics : { mail } } = person
 const { basics : { location } } = person
 
 const {urbanLeague} = person
-
+const {urbanLeague : { company } } = person
+const {urbanLeague : { website } } = person
+const {urbanLeague : { startDate } } = person
+const {urbanLeague : { endDate } } = person
+const {urbanLeague : { summary } } = person
 const {skills} = person
 
 const {edu} = person
