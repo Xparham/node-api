@@ -8,9 +8,9 @@ const {orgs:{first, second}} = person;
 const {edu:{high, uni, concen}} = person;
 const {community:{heroes, camp, cares}} = person;
 
-console.log( `I am ${fName} ${lName}`)
+console.log( `${fName} ${lName}`)
 console.log(`-------------------`)
-console.log(`from ${city}, ${state}`)
+console.log(`${city}, ${state}`)
 console.log(`---------`)
 console.log(`I am currently in the ${first} with the ${second} steadfastly improving my knowlegde in front-end and back-end coding.`)
 console.log(`---------`)
