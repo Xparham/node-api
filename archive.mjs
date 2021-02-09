@@ -3,6 +3,7 @@ export const person = {
         fName: "Xavier",
         lName: "Parham",
         hub: "https://github.com/Xparham",
+        vercel: ""
         mail: "xparham@gmail.com"
     },
     location: {
@@ -20,7 +21,10 @@ export const person = {
         css: "CSS(Tailwind CSS)", 
         java: "JavaScript",
         // backend
-        javaE: "JavaScript ESL6, Node.js, Express frameworks, React frameworks",
+        javaE: "JavaScript ESL6", 
+        node:"Node.js",
+        express: "Express frameworks", 
+        react:"React frameworks",
         
         
         other: "Github, Command Line, "
