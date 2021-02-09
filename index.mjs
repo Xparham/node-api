@@ -14,13 +14,23 @@ const {urbanLeague : { website } } = person
 const {urbanLeague : { startDate } } = person
 const {urbanLeague : { endDate } } = person
 const {urbanLeague : { summary } } = person
+
 const {skills} = person
+const {skills : {traits} } = person
+const {skills : {level} } = person
+const {skills : {keywords} } = person
 
 const {edu} = person
+const {edu : { highSchool } }
+const {edu : { college } }
+
 
 const {volunteer} = person
 
+
 const {languages} = person
+const {languages :  { language } }
+const {languages :  { fluency } }
 
 // const {basics:{nName, label, mail, location}} = person;
 
