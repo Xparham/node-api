@@ -23,7 +23,7 @@ app.get('/welcome', (req, res) => {
     /edu,
     /edu/high-school,
     /edu/university,
-    /community-service  `)
+    /community-service `)
 
 })
 

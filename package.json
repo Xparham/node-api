@@ -5,18 +5,30 @@
   "main": "index.mjs",
   "type": "module",
   "bin": {
-    "xaviers-resume": "./index.mjs"
+    "xaviers-resume": "index.mjs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
   },
-  "keywords": [],
+  "keywords": [
+    "heroku"
+  ],
   "author": "Xparham",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
   },
   "engines": {
     "node": "12.19.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xparham/node-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Xparham/node-api/issues"
+  },
+  "homepage": "https://github.com/Xparham/node-api#readme"
 }

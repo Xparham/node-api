@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 import { person } from './archive.mjs'
 
-import { person } from "./archive.js";
 
 const {location:{city, state}} = person;
 const {name:{fName, lName, mail, hub}} = person ;
