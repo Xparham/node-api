@@ -3,13 +3,13 @@
   "version": "1.2.0",
   "description": "resume made from my api that is allowed to be viewed locally on terminal or via server",
   "main": "index.mjs",
-  "type": "module",
+  "type": "commonjs",
   "bin": {
     "xaviers-resume": "index.mjs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.mjs"
+    "start": "node index.js"
   },
   "keywords": [
     "heroku"
