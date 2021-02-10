@@ -51,7 +51,7 @@ app.get('/', (req, res) => res.send(person) )
 
 app.get('/welcome', (req, res) => {
     res.send(`Welcome viewer! This is my Resume's API!  Feel free to use command "npx xaviers-resume" to view my resume via terminal.  
-    To view resume as a whole add /person.
+    To view resume as a whole, leave end tag blank.
     To pinpoint parts of resume on browser, and add these strings: 
     /basics, 
     /skills, 
