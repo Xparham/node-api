@@ -20,7 +20,8 @@
     "express": "^4.17.1"
   },
   "engines": {
-    "node": "12.19.0"
+    "node": "12.x",
+    "npm" :  "6.x"
   },
   "devDependencies": {},
   "repository": {
