@@ -26,10 +26,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xparham/node-api.git"
+    "url": "git+https://github.com/Xparham/xaviers-resume.git"
   },
   "bugs": {
-    "url": "https://github.com/Xparham/node-api/issues"
+    "url": "https://github.com/Xparham/xaviers-resmue/issues"
   },
-  "homepage": "https://github.com/Xparham/node-api#readme"
+  "homepage": "https://github.com/Xparham/xaviers-resume#readme"
 }
