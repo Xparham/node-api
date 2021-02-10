@@ -14,20 +14,20 @@ export const person = {
         "profiles": {
             "gitHub": {
                 "site": "GitHub",
-                "username": "Username:Xparham",
-                "url": "URL:https://github.com/Xparham"
+                "username": "Xparham",
+                "url": "https://github.com/Xparham"
             },
 
             "vercel":{
                 "site": "Vercel",
-                "username": "Username:Xparham",
-                "url":"URL:https://vercel.com/xparham"
+                "username": "Xparham",
+                "url":"https://vercel.com/xparham"
             },
             
             "npm": { 
                 "site": "NPM",
-                "username": "Username:xparham",
-                "url": "URL:https://www.npmjs.com/~xparham"
+                "username": "xparham",
+                "url": "https://www.npmjs.com/~xparham"
             },
 
         },
