@@ -7,6 +7,10 @@ const { basics : { id } } = person
 const { basics : { label } } = person
 const { basics : { mail } } = person
 const { basics : { location } } = person
+const { basics : { profiles } } = person
+const { basics : { profiles : { gitHub } }} = person
+const { basics : { profiles : { vercel } }} = person
+const { basics : { profiles : { npm } }} = person
 
 const {urbanLeague} = person
 const {urbanLeague : { company } } = person
@@ -26,13 +30,15 @@ const {edu : { college } }
 
 
 const {volunteer} = person
-
+const {volunteer : { cityYear } } = person
+const {volunteer : { c5 } } = person
+const {volunteer : { bostonCares } } = person
 
 const {languages} = person
 const {languages :  { language } }
 const {languages :  { fluency } }
 
-// const {basics:{nName, label, mail, location}} = person;
+
 
 
 // console.log( `${fName} ${lName}`)
