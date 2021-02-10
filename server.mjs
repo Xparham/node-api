@@ -47,7 +47,9 @@ const PORT = 5000
 
 const app = express()
 
-app.get('/', (req, res) => {
+app.get('/', (req, res) => res.send(person) ) 
+
+app.get('/welcome', (req, res) => {
     res.send(`Welcome viewer! This is my Resume's API!  Feel free to use command "npx xaviers-resume" to view my resume via terminal.  
     To view resume as a whole add /person.
     To pinpoint parts of resume on browser, and add these strings: 
@@ -56,14 +58,9 @@ app.get('/', (req, res) => {
     /UrbanLeague, 
     /education, 
     /CommunityService, 
-    /languages.
-   `)
-
+    /languages.`)
 })
 
-app.get('/person', (req, res) =>{
-    res.send(person)
-})
 
 app.get('/skills', (req, res) =>{
     res.send(skills)
