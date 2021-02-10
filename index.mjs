@@ -7,6 +7,11 @@ const { basics : { id } } = person
 const { basics : { label } } = person
 const { basics : { mail } } = person
 const { basics : { location } } = person
+const { basics : { location : { city } } } = person
+const { basics : { location : { state } } } = person
+const { basics : { location : { zipCode } } } = person
+const { basics : { location : { countryCode } } } = person
+const { basics : { location : { region } } } = person
 const { basics : { profiles } } = person
 const { basics : { profiles : { gitHub } }} = person
 const { basics : { profiles : { vercel } }} = person
@@ -41,18 +46,34 @@ const {languages :  { fluency } } = person
 
 
 
-// console.log( `${fName} ${lName}`)
-// console.log(`-------------------`)
-// console.log(`${city}, ${state}`)
-// console.log(`---------`)
-// console.log(`I am currently in the ${first} with the ${second} steadfastly improving my knowlegde in front-end and back-end coding.`)
-// console.log(`---------`)
-// console.log(`My education history includes a HSD at ${high}, and working towards a BFA at ${uni} with a concentration in ${concen}`)
-// console.log(`---------`)
-// console.log(`I have community service experience with ${heroes} from 2005-2007, ${camp}, from 2007-2012, and ${cares} from 2010-2012.`)
-// console.log(`-------------------`)
-// console.log(`E-mail:${mail}`)
-// console.log(`Github:${hub}`)
+console.log(id)
+console.log(label)
+console.log(mail)
+console.log(city, state, zipCode)
+console.log(region, countryCode)
+console.log(`Profiles:`)
+console.log(gitHub, vercel,npm)
+console.log(`-------------------`)
+console.log(`Skills:`)
+console.log(traits)
+console.log(level)
+console.log(`Keywords`)
+console.log(keywords)
+console.log(`---------`)
+console.log(`Education`)
+console.log(highSchool)
+console.log(college)
 
-// console.log("person: ", person)
 console.log(company)
+console.log(website)
+console.log(startDate)
+console.log(endDate)
+console.log(summary)
+console.log(`-------------------------------------`)
+console.log(`Community Service`)
+console.log(cityYear)
+console.log(c5)
+console.log(bostonCares)
+console.log(`----------------------------`)
+console.log(language)
+console.log(fluency)
