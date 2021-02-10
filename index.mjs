@@ -25,8 +25,8 @@ const {skills : {level} } = person
 const {skills : {keywords} } = person
 
 const {edu} = person
-const {edu : { highSchool } }
-const {edu : { college } }
+const {edu : { highSchool } } = person
+const {edu : { college } } = person
 
 
 const {volunteer} = person
@@ -35,8 +35,8 @@ const {volunteer : { c5 } } = person
 const {volunteer : { bostonCares } } = person
 
 const {languages} = person
-const {languages :  { language } }
-const {languages :  { fluency } }
+const {languages :  { language } } = person
+const {languages :  { fluency } } = person
 
 
 
@@ -55,4 +55,4 @@ const {languages :  { fluency } }
 // console.log(`Github:${hub}`)
 
 // console.log("person: ", person)
-console.log("basics:", basics)
+console.log(company)
