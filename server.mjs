@@ -50,15 +50,19 @@ const app = express()
 app.get('/', (req, res) => res.send(person) ) 
 
 app.get('/welcome', (req, res) => {
-    res.send(`Welcome viewer! This is my Resume's API!  Feel free to use command "npx api-resume" to view my resume via terminal.  
+    res.send(`<h1> Welcome User! </h1>
+     This is my Resume's API! Feel free to use command: <pre>npx api-resume</pre>to view my resume via terminal.  
     To view resume as a whole, leave end tag blank.
-    To pinpoint parts of resume on browser, and add these strings: 
-    /basics, 
-    /skills, 
-    /urban-league, 
-    /education, 
-    /community-service, 
-    /languages.`)
+    To pinpoint parts of resume on browser, and add these strings:
+    <ul>
+        <li>/basics</li>
+        <li>/skills</li>
+        <li>/urban-league</li>
+        <li>/education</li>
+        <li>/community-service</li>
+        <li>/languages</li>
+    </ul>`)
+    
 })
 
 app.get('/basics', (req, res) => {
@@ -70,7 +74,7 @@ app.get('/skills', (req, res) =>{
 })
 
 app.get('/urban-league', (req, res) =>{
-    res.send(urbanleague)
+    res.send(urbanLeague)
 })
 
 app.get('/education', (req, res) =>{
