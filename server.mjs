@@ -51,16 +51,16 @@ app.get('/', (req, res) => res.send(person) )
 
 app.get('/welcome', (req, res) => {
     res.send(`<h1> Welcome User! </h1>
-     This is my Resume's API! Feel free to use command: <pre>npx api-resume</pre>to view my resume via terminal.  
+     This is my Resume in an API format! Feel free to use command: <pre>npx api-resume</pre>to view my resume via terminal.  
     To view resume as a whole, leave end tag blank.
-    To pinpoint parts of resume on browser, and add these strings:
+    To pinpoint parts of resume on browser, click on one of the links bellow:
     <ul>
-        <li>/basics</li>
-        <li>/skills</li>
-        <li>/urban-league</li>
-        <li>/education</li>
-        <li>/community-service</li>
-        <li>/languages</li>
+        <li><a href="/basics">/basics</a></li>
+        <li><a href="/skills">/skills</a></li>
+        <li><a href="/urban-league">/urban-league</a></li>
+        <li><a href="/education">/education</a></li>
+        <li><a href="/community-service">/community-service</a></li>
+        <li><a href="/languages">/languages</a></li>
     </ul>`)
     
 })
