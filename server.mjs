@@ -55,26 +55,29 @@ app.get('/welcome', (req, res) => {
     To pinpoint parts of resume on browser, and add these strings: 
     /basics, 
     /skills, 
-    /UrbanLeague, 
+    /urban-league, 
     /education, 
-    /CommunityService, 
+    /community-service, 
     /languages.`)
 })
 
+app.get('/basics', (req, res) => {
+    res.send(basics)
+})
 
 app.get('/skills', (req, res) =>{
     res.send(skills)
 })
 
-app.get('/UrbanLeague', (req, res) =>{
-    res.send(urbanLeague)
+app.get('/urban-league', (req, res) =>{
+    res.send(urbanleague)
 })
 
 app.get('/education', (req, res) =>{
     res.send(edu)
 })
 
-app.get('/CommunityService', (req, res) =>{
+app.get('/community-service', (req, res) =>{
     res.send(volunteer)
 })
 
